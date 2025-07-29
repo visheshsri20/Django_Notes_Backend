@@ -29,7 +29,7 @@ POST /api/token/refresh/     # Refresh JWT token
 ### Notes (Authenticated)
 ```
 GET    /api/notes/                 # List all notes a user has saved till now (Requires an access token)
-POST   /api/notes/                 # Create new note (Requires an access token)
+POST   /api/notes/create/          # Create new note (Requires an access token)
 PUT    /api/notes/update/{id}/     # Update existing note (Requires an access token and a private key)
 PATCH  /api/notes/update/{id}/     # Partially update note (Requires an access token and a private key)
 DELETE /api/notes/delete/{id}/     # Delete note (Requires an access token and a private key)
